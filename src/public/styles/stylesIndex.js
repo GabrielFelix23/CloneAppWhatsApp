@@ -2,8 +2,8 @@ import {StyleSheet} from 'react-native'
 
 export default StyleSheet.create({
     container:{
-        alignItems: "center",
-        justifyContent: "center"
+       flex: 1,
+       alignItems: "flex-start"
     },
     cabecalho:{
         backgroundColor:'#054C44',
@@ -19,7 +19,8 @@ export default StyleSheet.create({
         flex: 1,
         flexDirection: "row",
         justifyContent: "space-between",
-        margin: 15
+        margin: 15,
+        marginTop:20
     },
     logo:{
         color: '#FCFDFD',
@@ -62,4 +63,40 @@ export default StyleSheet.create({
         fontWeight: "bold",
         color: '#FCFDFD'
     },
+    //Conversas
+    containerConversas:{
+        alignItems: "flex-start",
+        justifyContent: "flex-start",
+        margin: 15
+    },
+    conversas:{
+        flexDirection: "row"
+    },
+    perfil:{
+        width: 70,
+        height: 70,
+        borderRadius: 50,
+        marginRight: 3
+    },
+    containerPerfil:{
+        flexDirection: "column",
+        margin: 10
+    },
+    nomePerfil:{
+        fontSize:20,
+        fontWeight: "bold",
+        marginBottom: 2
+    },
+    mensagemPerfil:{
+        fontSize: 15,
+        color: '#6E6E6E'
+    },
+    containerBorda:{
+        marginTop: 25
+    },
+    borderDivisor:{
+        borderTopWidth: 0.5,
+        width: 245,
+        borderColor: '#A4A4A4',
+    }
 })

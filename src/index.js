@@ -7,8 +7,7 @@ export default function Index() {
     <View style={Styles.container}>
       <View style={Styles.cabecalho}></View>
 
-      <View style={Styles.containerCabecalho}>
-        
+      <View style={Styles.containerCabecalho}>  
         <View style={Styles.containerlogo}>
           <Text style={Styles.logo}>WhatsApp</Text>
             <View style={Styles.imgsCabacalho}>
@@ -36,6 +35,24 @@ export default function Index() {
           
         </View>
       </View>
+
+      <View style={Styles.containerConversas}>
+          <View style={Styles.conversas}>
+            <Image
+              style={Styles.perfil}
+              source={require("./public/images/minhaFoto.jpg")}
+            />
+            <View style={Styles.containerPerfil}>
+              <Text style={Styles.nomePerfil}>Gabriel Felix</Text>
+              <Text style={Styles.mensagemPerfil}>Eai cara, como você está?</Text>
+
+              <View style={Styles.containerBorda}>
+                <Text style={Styles.borderDivisor}></Text>
+              </View>
+            </View>
+              
+          </View>
+        </View>
     </View>
   )
 }
