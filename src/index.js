@@ -1,11 +1,29 @@
-import React from 'react';
-import {Text, View } from 'react-native';
-import Styles from './public/styles'
+import React from 'react'
+import {Text, View, Image} from 'react-native'
+import Styles from './public/styles/stylesIndex'
 
-export default function App() {
+export default function Index() {
   return (
     <View style={Styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <View style={Styles.cabecalho}></View>
+
+      <View style={Styles.containerCabecalho}>
+        
+        <View style={Styles.containerlogo}>
+          <Text style={Styles.logo}>WhatsApp</Text>
+            <View style={Styles.imgsCabacalho}>
+              <Image
+                style={Styles.pesquisa}
+                source={require("./public/images/lupa.png")}
+              />
+              <Image
+                style={Styles.tresPontos}
+                source={require("./public/images/tres-pontos.png")}
+              />
+            </View>   
+        </View>
+ 
+      </View>
     </View>
-  );
+  )
 }
