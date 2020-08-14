@@ -22,7 +22,19 @@ export default function Index() {
               />
             </View>   
         </View>
- 
+
+        <View style={Styles.containerNavegacao}>
+          <View style={Styles.Navegação}>
+            <Image
+                style={Styles.camera}
+                source={require("./public/images/camera.png")}
+              />
+              <Text style={Styles.textNav}>CORVERSA</Text>
+              <Text style={Styles.textNav}>STATUS</Text>
+              <Text style={Styles.textNav}>CHAMADAS</Text>
+          </View>  
+          
+        </View>
       </View>
     </View>
   )

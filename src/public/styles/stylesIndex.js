@@ -13,7 +13,7 @@ export default StyleSheet.create({
     containerCabecalho:{
         backgroundColor: '#075E55',
         width:'100%',
-        height: 100
+        height: 120
     },
     containerlogo:{
         flex: 1,
@@ -30,12 +30,36 @@ export default StyleSheet.create({
         flexDirection: "row"
     },
     pesquisa:{
-        width: 25,
-        height: 25,
+        width: 22,
+        height: 22,
     },
     tresPontos:{
-        width: 25,
-        height: 25,
+        width: 20,
+        height: 20,
         marginLeft: 15
-    }
+    },
+    containerNavegacao:{
+        flex: 1,
+        flexDirection: "row",
+        justifyContent: "space-between",
+     
+    },
+    Navegação:{
+        marginTop: 10,
+        marginBottom: 15,
+        alignItems: "center",
+        flexDirection: "row"
+    },
+    camera:{
+        marginRight: 10,
+        marginLeft:10,
+        width: 27,
+        height: 27
+    },
+    textNav:{
+        marginRight: 25,
+        marginLeft: 25,
+        fontWeight: "bold",
+        color: '#FCFDFD'
+    },
 })
