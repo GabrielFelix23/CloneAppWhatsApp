@@ -1,2 +1,2 @@
 # CloneAppWhatsApp
- Interface no app WhatsApp.
+ Interface do app WhatsApp feito com React Native.
