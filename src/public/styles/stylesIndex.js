@@ -13,7 +13,7 @@ export default StyleSheet.create({
     containerCabecalho:{
         backgroundColor: '#075E55',
         width:'100%',
-        height: 120
+        height: 120,
     },
     containerlogo:{
         flex: 1,
@@ -43,6 +43,8 @@ export default StyleSheet.create({
         flex: 1,
         flexDirection: "row",
         justifyContent: "space-between",
+        position: 'absolute',
+        bottom:0
      
     },
     Navegação:{
@@ -73,8 +75,8 @@ export default StyleSheet.create({
         flexDirection: "row"
     },
     perfil:{
-        width: 70,
-        height: 70,
+        width: 60,
+        height: 60,
         borderRadius: 50,
         marginRight: 3
     },
@@ -82,17 +84,31 @@ export default StyleSheet.create({
         flexDirection: "column",
         margin: 10
     },
+    containerNomePerfil:{
+        flexDirection: "row",
+        alignItems: "center",
+        justifyContent: "space-between"
+    },
     nomePerfil:{
-        fontSize:20,
+        fontSize:17,
         fontWeight: "bold",
         marginBottom: 2
     },
+    containerMensagemPerfil:{
+        flexDirection: "row",
+        alignItems: "center",
+    },
+    visto:{
+        width: 17,
+        height: 17,
+        marginRight: 5
+    },
     mensagemPerfil:{
-        fontSize: 15,
+        fontSize: 14,
         color: '#6E6E6E'
     },
     containerBorda:{
-        marginTop: 25
+        marginTop: 20
     },
     borderDivisor:{
         borderTopWidth: 0.5,

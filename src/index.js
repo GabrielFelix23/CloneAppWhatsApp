@@ -1,5 +1,5 @@
 import React from 'react'
-import {Text, View, Image} from 'react-native'
+import {Text, View, Image, ScrollView} from 'react-native'
 import Styles from './public/styles/stylesIndex'
 
 export default function Index() {
@@ -35,24 +35,186 @@ export default function Index() {
           
         </View>
       </View>
-
-      <View style={Styles.containerConversas}>
+      
+      <ScrollView>
+        <View style={Styles.containerConversas}>
+       
           <View style={Styles.conversas}>
             <Image
               style={Styles.perfil}
               source={require("./public/images/minhaFoto.jpg")}
             />
+            
             <View style={Styles.containerPerfil}>
-              <Text style={Styles.nomePerfil}>Gabriel Felix</Text>
-              <Text style={Styles.mensagemPerfil}>Eai cara, como você está?</Text>
-
+              <View style={Styles.containerNomePerfil}>
+                <Text style={Styles.nomePerfil}>Gabriel Felix</Text>
+                <Text>10:30</Text>
+              </View>
+              
+              <View style={Styles.containerMensagemPerfil}>
+                <Image
+                style={Styles.visto}
+                source={require("./public/images/visto.png")}
+              />
+                <Text style={Styles.mensagemPerfil}>Eai cara, como você está?</Text>
+              </View>
               <View style={Styles.containerBorda}>
                 <Text style={Styles.borderDivisor}></Text>
               </View>
             </View>
+          </View>
+
+          <View style={Styles.conversas}>
+            <Image
+              style={Styles.perfil}
+              source={require("./public/images/minhaFoto.jpg")}
+            />
+            
+            <View style={Styles.containerPerfil}>
+              <View style={Styles.containerNomePerfil}>
+                <Text style={Styles.nomePerfil}>Gabriel Felix</Text>
+                <Text>10:30</Text>
+              </View>
               
+              <View style={Styles.containerMensagemPerfil}>
+                <Image
+                style={Styles.visto}
+                source={require("./public/images/visto.png")}
+              />
+                <Text style={Styles.mensagemPerfil}>Eai cara, como você está?</Text>
+              </View>
+              <View style={Styles.containerBorda}>
+                <Text style={Styles.borderDivisor}></Text>
+              </View>
+            </View>    
+          </View>
+
+          <View style={Styles.conversas}>
+            <Image
+              style={Styles.perfil}
+              source={require("./public/images/minhaFoto.jpg")}
+            />
+            
+            <View style={Styles.containerPerfil}>
+              <View style={Styles.containerNomePerfil}>
+                <Text style={Styles.nomePerfil}>Gabriel Felix</Text>
+                <Text>10:30</Text>
+              </View>
+              
+              <View style={Styles.containerMensagemPerfil}>
+                <Image
+                style={Styles.visto}
+                source={require("./public/images/visto.png")}
+              />
+                <Text style={Styles.mensagemPerfil}>Eai cara, como você está?</Text>
+              </View>
+              <View style={Styles.containerBorda}>
+                <Text style={Styles.borderDivisor}></Text>
+              </View>
+            </View>    
+          </View>
+
+          <View style={Styles.conversas}>
+            <Image
+              style={Styles.perfil}
+              source={require("./public/images/minhaFoto.jpg")}
+            />
+            
+            <View style={Styles.containerPerfil}>
+              <View style={Styles.containerNomePerfil}>
+                <Text style={Styles.nomePerfil}>Gabriel Felix</Text>
+                <Text>10:30</Text>
+              </View>
+              
+              <View style={Styles.containerMensagemPerfil}>
+                <Image
+                style={Styles.visto}
+                source={require("./public/images/visto.png")}
+              />
+                <Text style={Styles.mensagemPerfil}>Eai cara, como você está?</Text>
+              </View>
+              <View style={Styles.containerBorda}>
+                <Text style={Styles.borderDivisor}></Text>
+              </View>
+            </View>    
+          </View>
+
+          <View style={Styles.conversas}>
+            <Image
+              style={Styles.perfil}
+              source={require("./public/images/minhaFoto.jpg")}
+            />
+            
+            <View style={Styles.containerPerfil}>
+              <View style={Styles.containerNomePerfil}>
+                <Text style={Styles.nomePerfil}>Gabriel Felix</Text>
+                <Text>10:30</Text>
+              </View>
+              
+              <View style={Styles.containerMensagemPerfil}>
+                <Image
+                style={Styles.visto}
+                source={require("./public/images/visto.png")}
+              />
+                <Text style={Styles.mensagemPerfil}>Eai cara, como você está?</Text>
+              </View>
+              <View style={Styles.containerBorda}>
+                <Text style={Styles.borderDivisor}></Text>
+              </View>
+            </View>    
+          </View>
+
+          <View style={Styles.conversas}>
+            <Image
+              style={Styles.perfil}
+              source={require("./public/images/minhaFoto.jpg")}
+            />
+            
+            <View style={Styles.containerPerfil}>
+              <View style={Styles.containerNomePerfil}>
+                <Text style={Styles.nomePerfil}>Gabriel Felix</Text>
+                <Text>10:30</Text>
+              </View>
+              
+              <View style={Styles.containerMensagemPerfil}>
+                <Image
+                style={Styles.visto}
+                source={require("./public/images/visto.png")}
+              />
+                <Text style={Styles.mensagemPerfil}>Eai cara, como você está?</Text>
+              </View>
+              <View style={Styles.containerBorda}>
+                <Text style={Styles.borderDivisor}></Text>
+              </View>
+            </View>    
+          </View>
+
+          <View style={Styles.conversas}>
+            <Image
+              style={Styles.perfil}
+              source={require("./public/images/minhaFoto.jpg")}
+            />
+            
+            <View style={Styles.containerPerfil}>
+              <View style={Styles.containerNomePerfil}>
+                <Text style={Styles.nomePerfil}>Gabriel Felix</Text>
+                <Text>10:30</Text>
+              </View>
+              
+              <View style={Styles.containerMensagemPerfil}>
+                <Image
+                style={Styles.visto}
+                source={require("./public/images/visto.png")}
+              />
+                <Text style={Styles.mensagemPerfil}>Eai cara, como você está?</Text>
+              </View>
+              <View style={Styles.containerBorda}>
+                <Text style={Styles.borderDivisor}></Text>
+              </View>
+            </View>    
           </View>
         </View>
+      </ScrollView>
     </View>
   )
 }
